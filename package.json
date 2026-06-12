@@ -6,7 +6,7 @@
   "scripts": {
     "start": "vite --host 0.0.0.0",
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build --base=/codexpusle360/",
     "preview": "vite preview"
   },
   "dependencies": {

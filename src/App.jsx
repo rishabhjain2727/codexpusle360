@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 
-const asset = (name) => `/assets/${name}`;
+const asset = (name) => `${import.meta.env.BASE_URL}assets/${name}`;
 
 const words = ["connected growth", "brand control", "live optimisation", "smarter planning"];
 

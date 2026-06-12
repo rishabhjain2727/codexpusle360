@@ -451,8 +451,6 @@ function Suite() {
         </div>
         <article className="product-panel">
           <div className="product-content">
-            {product.logo && <img className="product-logo-display" src={product.logo} alt={`${product.short} logo`} />}
-            <span>{product.count}</span>
             <h3>{product.title}</h3>
             <p>{product.copy}</p>
             <ul>{product.features.map((feature) => <li key={feature}>{feature}</li>)}</ul>
